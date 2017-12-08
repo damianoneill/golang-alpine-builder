@@ -6,3 +6,4 @@ It includes additional useful go packages:
 
 * [dep](github.com/golang/dep/cmd/dep)
 * [gometalinter](github.com/alecthomas/gometalinter)
+* [courtney](https://github.com/dave/courtney)
