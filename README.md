@@ -9,3 +9,4 @@ It includes additional useful go packages:
 * [courtney](https://github.com/dave/courtney)
 * [vgo](https://github.com/golang/go/wiki/vgo-user-guide)
 * [golangci-lint](https://github.com/golangci/golangci-lint)
+* [goverreport](https://github.com/mcubik/goverreport)
