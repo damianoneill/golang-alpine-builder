@@ -8,5 +8,6 @@ RUN go get -u github.com/alecthomas/gometalinter && gometalinter --install
 RUN go get -u github.com/dave/courtney  
 RUN go get -u golang.org/x/vgo
 RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+RUN go get -u github.com/mcubik/goverreport
 
 CMD ["/bin/sh"]
