@@ -9,5 +9,6 @@ RUN go get -u github.com/dave/courtney
 RUN go get -u golang.org/x/vgo
 RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 RUN go get -u github.com/mcubik/goverreport
+RUN go get -u github.com/go-critic/go-critic/...
 
 CMD ["/bin/sh"]
