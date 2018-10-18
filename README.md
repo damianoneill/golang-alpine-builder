@@ -11,3 +11,4 @@ It includes additional useful go packages:
 * [golangci-lint](https://github.com/golangci/golangci-lint)
 * [goverreport](https://github.com/mcubik/goverreport)
 * [go-critic](https://go-critic.github.io)
+* [ghost](https://github.com/elliotchance/ghost)
