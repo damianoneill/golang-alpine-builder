@@ -14,7 +14,7 @@ It includes additional useful go packages:
 
 ## Build
 
-The image is available on docker hub, you can pull it as follows:
+The image is available on [docker hub](https://hub.docker.com/r/damianoneill/golang-alpine-builder/), you can pull it as follows:
 
 ```sh
 docker pull damianoneill/golang-alpine-builder
