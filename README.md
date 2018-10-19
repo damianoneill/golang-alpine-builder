@@ -7,8 +7,21 @@ It includes additional useful go packages:
 * [dep](github.com/golang/dep/cmd/dep)
 * [gometalinter](github.com/alecthomas/gometalinter)
 * [courtney](https://github.com/dave/courtney)
-* [vgo](https://github.com/golang/go/wiki/vgo-user-guide)
 * [golangci-lint](https://github.com/golangci/golangci-lint)
 * [goverreport](https://github.com/mcubik/goverreport)
 * [go-critic](https://go-critic.github.io)
 * [ghost](https://github.com/elliotchance/ghost)
+
+## Build
+
+The image is available on docker hub, you can pull it as follows:
+
+```sh
+docker pull damianoneill/golang-alpine-builder
+```
+
+Alternatively, after checking out this repository, you can build it locally with the following command:
+
+```sh
+docker build -t="damianoneill/golang-alpine-builder" .
+```
