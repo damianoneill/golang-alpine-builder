@@ -1,7 +1,8 @@
 FROM golang:alpine
 
-RUN apk update; apk add git gcc musl-dev make
+RUN apk update; apk add git gcc libc-dev make
 
+ENV GO111MODULE=auto
 
 RUN go get -u github.com/golang/dep/cmd/dep
 RUN go get -u github.com/alecthomas/gometalinter && gometalinter --install
