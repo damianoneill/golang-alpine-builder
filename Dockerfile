@@ -1,11 +1,10 @@
-FROM golang:alpine
+FROM golang:1.12.1-alpine
 
 RUN apk update && apk add git gcc libc-dev make
 
 ENV GO111MODULE=auto
 
 RUN go get -u github.com/golang/dep/cmd/dep
-RUN go get -u github.com/alecthomas/gometalinter && gometalinter --install
 RUN go get -u github.com/dave/courtney
 RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 RUN go get -u github.com/mcubik/goverreport

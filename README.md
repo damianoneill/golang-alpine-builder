@@ -5,7 +5,7 @@ A Docker image for building golang projects.  This image is derived from the [of
 It includes additional useful go packages:
 
 * [dep](github.com/golang/dep/cmd/dep)
-* [gometalinter](github.com/alecthomas/gometalinter)
+* ~~[gometalinter](github.com/alecthomas/gometalinter)~~ - deprecated
 * [courtney](https://github.com/dave/courtney)
 * [golangci-lint](https://github.com/golangci/golangci-lint)
 * [goverreport](https://github.com/mcubik/goverreport)
